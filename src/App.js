@@ -8,6 +8,7 @@ import Addproduct from './components/AddProduct';
 import Login from './components/Login';
 import ProductList from './components/ProductList';
 import UpdateProduct from './components/UpdateProduct';
+import OnlyAdminCandidateList from './components/OnlyAdminProdList';
 import Apps from './components/meta';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
 
           <Route element={<PrivateComponent />}>
             <Route path='/products' element={<ProductList/>} />
+            <Route path='/onlyAdminProducts' element={<OnlyAdminCandidateList/>} />
             <Route path='/add' element={<Addproduct/>} />
             <Route path='/update/:id' element={<UpdateProduct/>} />
             <Route path='/logout' element={<h1>outtt</h1>} />

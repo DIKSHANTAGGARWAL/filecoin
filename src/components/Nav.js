@@ -18,6 +18,7 @@ const Nav = () => {
             {auth ? <ul className="nav-ul"> 
                 <li><Link to="/metamask">Metamask</Link></li>
                 <li><Link to="/products">Candidates</Link></li>
+                <li><Link to="/onlyAdminProducts">AdminCandidates</Link></li>
                 <li><Link to="/add">Add Candidate</Link></li>
                 {/* <li><Link to="/update">Update</Link></li> */}
                 {/* <li><Link to="/logout">Logout</Link></li> */}

@@ -46,12 +46,7 @@ const AddProduct = () => {
       {error && !category && <span className='invalid-input'>Enter valid category</span>}
 
 
-      {/* <input type='text' placeholder='Enter product company' className='inputBox'
-        value={company} onChange={(e => { setCompany(e.target.value) })}
-      />
-      {error && !company && <span className='invalid-input'>Enter valid Company</span>} */}
-
-      <button onClick={addProduct} className='appButton'>Add Product</button>
+      <button onClick={addProduct} className='appButton'>Add Candidate</button>
     </div>
   )
 

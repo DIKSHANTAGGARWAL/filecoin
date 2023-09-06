@@ -53,10 +53,6 @@ const UpdateProduct = () => {
             />
 
 
-            <input type='text' placeholder='Enter product company' className='inputBox'
-                value={company} onChange={(e => { setCompany(e.target.value) })}
-            />
-
             <button onClick={updateProduct} className='appButton'>Update Product</button>
         </div>
     )
