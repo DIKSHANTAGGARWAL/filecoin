@@ -25,7 +25,7 @@ const Login = () => {
 
         result = await result.json();
         console.warn(result)
-        if (result.name) {
+        if (result.user.name) {
             localStorage.setItem("user", JSON.stringify(result));
             navigate('/metamask')
         } else {
